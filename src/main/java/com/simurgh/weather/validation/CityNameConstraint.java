@@ -18,8 +18,8 @@ public @interface CityNameConstraint {
 
     String message() default "Invalid city name";
 
-    Class<?>[] groups() default { };
+    Class<?>[] groups() default {};
 
-    Class<? extends Payload>[] payload() default { };
+    Class<? extends Payload>[] payload() default {};
 
 }

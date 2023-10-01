@@ -13,7 +13,7 @@ import static com.simurgh.weather.constants.Constants.WEATHERS;
 public class SpringCachingConfig {
 
     @Bean
-    public CacheManager cacheManager(){
+    public CacheManager cacheManager() {
         return new ConcurrentMapCacheManager(WEATHERS);
     }
 

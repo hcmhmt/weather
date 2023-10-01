@@ -7,7 +7,6 @@ import com.simurgh.weather.dto.WeatherDto;
 import com.simurgh.weather.dto.WeatherResponse;
 import com.simurgh.weather.entity.WeatherEntity;
 import com.simurgh.weather.repository.WeatherRepository;
-import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.annotation.PostConstruct;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
